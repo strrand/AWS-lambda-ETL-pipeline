@@ -1,5 +1,6 @@
 # AWS-lambda-ETL-pipeline
 This repository showcases an ETL (Extract, Transform, Load) process using AWS Lambda and S3. The data is extracted from a HistoricalCrypto API using Python, and subsequently loaded into an AWS S3 bucket for storage and further processing.
+After this I also visualized the data using AWS SageMaker and Jupyter notebook.
 
 ## Files in the Repository:
 lambda_function.py: This is the main Python script that contains the Lambda function used to extract data from the HistoricalCrypto API and store it in the S3 bucket.
